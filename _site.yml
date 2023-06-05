@@ -1,0 +1,23 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "Topics"
+      menu: 
+      - text: "Topic 1"
+        href: eda.html
+      - text: "Topic 2"
+        href: map.html
+    - text: "Dataset"
+      href: experience.html
+    - text: "Dashboard"
+      href: shiny_sqltable.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<tl3196@columbia.edu>
+    - icon: fa-github fa-lg
+      href: https://github.com/TianshuLiu0307/sample_website/tree/main
+output:
+  html_document:
+    theme: paper
+    css: style.css
